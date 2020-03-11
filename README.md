@@ -44,9 +44,9 @@ Dataset file are saved in a format similar than Kitty file formats.
 
 
 ## Calibrations (X forward, Y left, Z Up) :
-* Transformation IMU to Lidar (Tx,Ty,Tz,Rx,Ry,Rz) : [X,X, X,X,X,X]
+* Transformation IMU to Lidar (Tx(m),Ty(m),Tz(m),Rx(deg),Ry(deg),Rz(deg)) : [0.991,-0.082,2.388,-0.41,0.335,0.81]
 * Car odometry and IMU have the same measurement points (rear axle)
-* Transformation lidar to Camera (Tx,Ty,Tz,Rx,Ry,Rz) : [0.74,-0.43, 0.0,0.0,0.0,0.0]
+* Transformation lidar to Camera  (Tx(m),Ty(m),Tz(m),Rx(deg),Ry(deg),Rz(deg)) : [0.74,-0.43, 0.0,0.0,0.0,0.0]
 
 ## List of sensors and software used :
 * vlp16 Lidar synchronised on GPS ([Velodyne](https://velodynelidar.com/))
